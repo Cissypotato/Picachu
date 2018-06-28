@@ -21,7 +21,10 @@
 
     let code=`
     /*
-    *首先，准备皮卡丘的皮
+    *今天，让我们来一起画个皮卡丘吧
+    */
+    /*
+    *首先，准备皮卡丘的皮肤
     */
     .preview{height: 100%;display: flex;justify-content: center;align-items: center;background: #fee433}
     .wrapper{height: 168px;position: relative;}
@@ -64,7 +67,7 @@
     .lowerLip::after{content: '';position: absolute;width: 120px;height: 120px;left: 50%;margin-left: -60px;background: #fc4a62;
         border-radius: 50%;bottom:-10px;}
     /*
-    *这只皮卡丘送给可爱的你
+    *好了，这只皮卡丘送给可爱的你
     */    
     `
     writeCode('',code)
