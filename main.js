@@ -73,9 +73,7 @@
     writeCode('',code)
     $('.actions').on('click','button',function(e){
         let $button=$(e.currentTarget)
-        console.log( $button)
         let speed=$button.attr('data-speed')
-        console.log(speed)
         $button.addClass('active').siblings('.active').removeClass('active')
         switch(speed){
             case 'slow':
